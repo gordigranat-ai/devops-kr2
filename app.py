@@ -1,3 +1,4 @@
+# KR2: Kolomoets
 import os
 
 import redis
@@ -36,4 +37,4 @@ def whoami():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000)
+    app.run(host="0.0.0.0", port=8002)
